@@ -8,7 +8,7 @@ module "lets_encrypt_certificate" {
   dns_names             = var.dns_names 
   dnszone_name          = var.dnszone_name
   dnszone_rg_name       = var.dnszone_rg_name
-  arm_tenant_id         = var.tenant_id
+  arm_tenant_id         = var.arm_tenant_id
   arm_subsription_id    = var.arm_subsription_id
   arm_client_id         = var.arm_client_id
   arm_client_secret     = var.arm_client_secret
